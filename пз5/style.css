@@ -1,0 +1,33 @@
+.list__item {
+    border: 1px solid blue;
+    width: 200px;
+    margin-bottom: 5px;
+}
+
+.list__item:hover {
+    background-color: red;
+}
+
+.list__item:hover ~ .list__item{
+    background-color: green;
+}
+
+
+.text-1:first-line {
+    font-style: italic;
+    color: red;
+}
+
+.text-2:before {
+    content: "Начало:   ";
+    color: red;
+}
+
+.text-2:after {
+    content: "  :конец!  ";
+    color: green;
+}
+
+.list__item-2:nth-last-child(2) {
+    color: red;
+}

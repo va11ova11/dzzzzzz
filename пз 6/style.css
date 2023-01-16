@@ -1,0 +1,37 @@
+.large {
+    border: 3px dashed blue;
+    width: 200px;
+    margin: 0 auto;
+}
+
+.medium {
+    border: 3px dashed green;
+    margin: 20px;
+    padding: 20px;
+}
+
+.small {
+    border: 3px solid red;
+    height: 100px;
+}
+
+.text-1 {
+    padding: 10px;
+    border: 1px solid green;
+    text-align: justify;
+}
+
+.text-2 {
+    padding: 10px;
+    width: 400px;
+    border: 1px solid red;
+    text-align: justify;
+    margin: 20px auto 0;
+}
+
+.circle {
+    width: 100px;
+    height: 100px;
+    border: 3px solid red;
+    border-radius: 50%;
+}

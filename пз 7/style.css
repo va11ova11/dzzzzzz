@@ -1,0 +1,55 @@
+.list {
+    padding: 0;
+    list-style: none;
+}
+
+.list-element {
+    display: inline;
+    margin: 0;
+    margin-right: 10px;
+}
+
+.link {
+    border: 1px solid blue;
+    padding: 5px;
+    color: blue;
+    text-decoration: none;
+}
+
+.link:hover {
+    border: 1px solid gray;
+    color: white;
+    background-color: gray;
+}
+
+
+
+
+.list2 {
+    padding: 0;
+    list-style: none;
+    background-color: orange;
+}
+
+.list-element2 {
+    display: inline;
+}
+
+.link2 {
+    padding: 0 15px;
+    color: white;
+    text-decoration: none;
+    text-transform: uppercase;
+}
+
+.link2:hover {
+    background-color: red;
+}
+
+
+.link3 {
+        display: block;
+        width: 100px;
+        height: 30px;
+        border: 1px solid red;
+}
